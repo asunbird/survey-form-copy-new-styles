@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <!-- A title of the survey form -->
+        <h1 id="title">Survey Form</h1>
+        <p id="description">🚗🛠️🥐 Which Travel Superhero Are You?</p>
+      </header>
+
+      <!-- The survey form -->
+      <form id="survey-form">
+        <!-- Input for name, email and age -->
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">What is your age?</label>
+          <input
+            id="number"
+            class="form-control"
+            type="number"
+            name="age"
+            min="10"
+            max="99"
+            placeholder="Age range"
+          />
+        </div>
+
+        <!-- Curent role dropdown selector -->
+        <div class="form-group">
+          <p>What is your current profession?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Select current role</option>
+            <option value="A.">A. Engineer / IT / Analyst / Accountant</option>
+            <option value="B.">
+              B. Artist / Designer / Writer / Creative Professional
+            </option>
+            <option value="C.">
+              C. Scientist / Tech Expert / Problem-Solver
+            </option>
+            <option value="D.">
+              D. Teacher / Nurse / Caregiver / Social Worker
+            </option>
+            <option value="E.">E. Cook / Chef / Baker</option>
+            <option value="F.">
+              F. Driver / Delivery / Transportation Pro
+            </option>
+            <option value="G.">G. Mechanic / Technician / Repair Wizard</option>
+          </select>
+        </div>
+
+        <!-- Radio buttons for choosing a vacation destination -->
+        <div class="form-group">
+          <p>
+            You’re choosing a vacation destination. You pick the place that?
+          </p>
+          <label>
+            <input
+              name="destination"
+              value="A."
+              type="radio"
+              class="input-radio"
+              checked
+            />
+            A. Has reviews, graphs, and a PDF that could double as a thesis.
+          </label>
+          <label>
+            <input
+              name="destination"
+              value="B."
+              type="radio"
+              class="input-radio"
+            />
+            B. Looks like the opening scene of a movie where you walk in slow
+            motion.
+          </label>
+          <label>
+            <input
+              name="destination"
+              value="C."
+              type="radio"
+              class="input-radio"
+            />
+            C. Has fast Wi-Fi and outlets you could plug a small village into.
+          </label>
+          <label>
+            <input
+              name="destination"
+              value="D."
+              type="radio"
+              class="input-radio"
+            />
+            D. Is safe, calm, and nap-accessible.
+          </label>
+          <label>
+            <input
+              name="destination"
+              value="E."
+              type="radio"
+              class="input-radio"
+            />
+            E. Has food that makes you weep like a perfectly baked soufflé.
+          </label>
+          <label>
+            <input
+              name="destination"
+              value="F."
+              type="radio"
+              class="input-radio"
+            />
+            F. Has smooth roads and parking spots that aren’t a death trap.
+          </label>
+          <label>
+            <input
+              name="destination"
+              value="G."
+              type="radio"
+              class="input-radio"
+            />
+            G. Has machines that you can poke, inspect, or fix… if allowed.
+          </label>
+        </div>
+
+        <!-- Suitcase pack dropdown selector -->
+        <div class="form-group">
+          <p>Time to pack! Your suitcase looks like:</p>
+          <select id="dropdown" name="suitcase" class="form-control" required>
+            <option disabled selected value>Select the answer</option>
+            <option value="A.">
+              A. NASA could launch a mission with the organization in your
+              cubes.
+            </option>
+            <option value="B.">
+              B. An explosion of fabric, glitter, and “I’ll figure this out
+              later.”
+            </option>
+            <option value="C.">
+              C. More gadgets and cables than a small electronics store.
+            </option>
+            <option value="D.">D. 90% snacks, 10% clothing.</option>
+            <option value="E.">
+              E. Knives (wrapped!), spices, and at least one emergency pan.
+            </option>
+            <option value="F.">
+              F. Road snacks, energy drinks, and a reflective safety vest.
+            </option>
+            <option value="G.">
+              G. Wrenches, screwdrivers, and “maybe I’ll fix the hotel AC” kit.
+            </option>
+          </select>
+        </div>
+
+        <!-- Checkbox inputs for favorite features -->
+        <div class="form-group">
+          <p>Your luggage gets lost. You:</p>
+          <label>
+            <input
+              name="lost-luggage"
+              value="A."
+              type="checkbox"
+              class="input-radio"
+              checked
+            />
+            A. File a full report, with timestamps, photos, and probably graphs.
+          </label>
+          <label>
+            <input
+              name="lost-luggage"
+              value="B."
+              type="checkbox"
+              class="input-radio"
+            />
+            B. Write a tragic poem about your poor suitcase’s existential
+            crisis.
+          </label>
+          <label>
+            <input
+              name="lost-luggage"
+              value="C."
+              type="checkbox"
+              class="input-radio"
+            />
+            C. Track it like a secret agent.
+          </label>
+          <label>
+            <input
+              name="lost-luggage"
+              value="D."
+              type="checkbox"
+              class="input-radio"
+            />
+            D. Check if everyone else is okay first.
+          </label>
+          <label>
+            <input
+              name="lost-luggage"
+              value="E."
+              type="checkbox"
+              class="input-radio"
+            />
+            E. Cry over your missing artisan snacks.
+          </label>
+          <label>
+            <input
+              name="lost-luggage"
+              value="F."
+              type="checkbox"
+              class="input-radio"
+            />
+            F. Grumble about airport navigation inefficiencies.
+          </label>
+          <label>
+            <input
+              name="lost-luggage"
+              value="G."
+              type="checkbox"
+              class="input-radio"
+            />
+            G. Offer to fix the luggage system personally. “Step aside,
+            amateurs.”
+          </label>
+        </div>
+
+        <!-- A text area for additional comments -->
+        <div class="form-group">
+          <p>
+            Ever wondered if your vacation style screams planner, creative
+            explorer, snack hoarder, or mechanical genius? Write some comment:
+          </p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here"
+          ></textarea>
+        </div>
+
+        <!-- A submit button -->
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
