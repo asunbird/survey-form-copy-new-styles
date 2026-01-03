@@ -21,6 +21,12 @@ main {
     margin: 30px 10px;
     border-radius: 6px;
     padding: 60px 40px;
+    color: black
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 h1 {
