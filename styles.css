@@ -68,16 +68,10 @@ img {
   font-size: 1.4rem;
 }
 
-/* Styles for the form title */
-#headline {
+
+h3 {
   margin: 50px 0;
   text-align: center;
-}
-
-/* Footer*/
-#footer {
-    margin: 20px 0;
-    display: block;
 }
 
 
