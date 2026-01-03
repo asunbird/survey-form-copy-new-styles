@@ -141,3 +141,7 @@ form {
   border-radius: 2px;
   cursor: pointer;
 }
+
+ul {
+    list-style: none;
+}
