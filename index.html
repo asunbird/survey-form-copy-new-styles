@@ -26,7 +26,7 @@
         <form id="survey-form">
           <!-- Input for name, email and age -->
           <div class="form-group">
-            <label id="name-label" for="name">Name</label>
+            <label id="name-label" for="name"><strong>Name</strong></label>
             <input
               type="text"
               id="name"
@@ -37,7 +37,7 @@
             />
           </div>
           <div class="form-group">
-            <label id="email-label" for="email">Email</label>
+            <label id="email-label" for="email"><strong>Email</strong></label>
             <input
               type="email"
               id="email"
@@ -48,7 +48,9 @@
             />
           </div>
           <div class="form-group">
-            <label id="number-label" for="number">What is your age?</label>
+            <label id="number-label" for="number"
+              ><strong>What is your age?</strong></label
+            >
             <input
               id="number"
               class="form-control"
@@ -62,7 +64,7 @@
 
           <!-- Curent role dropdown selector -->
           <div class="form-group">
-            <p>What is your current profession?</p>
+            <p><strong>What is your current profession?</strong></p>
             <select id="dropdown" name="role" class="form-control" required>
               <option disabled selected value>Select current role</option>
               <option value="A.">
@@ -90,7 +92,10 @@
           <!-- Radio buttons for choosing a vacation destination -->
           <div class="form-group">
             <p>
-              You’re choosing a vacation destination. You pick the place that?
+              <strong>
+                You’re choosing a vacation destination. You pick the place
+                that?</strong
+              >
             </p>
             <ul>
               <li>
@@ -182,7 +187,7 @@
 
           <!-- Suitcase pack dropdown selector -->
           <div class="form-group">
-            <p>Time to pack! Your suitcase looks like:</p>
+            <p><strong>Time to pack! Your suitcase looks like:</strong></p>
             <select id="dropdown" name="suitcase" class="form-control" required>
               <option disabled selected value>Select the answer</option>
               <option value="A.">
@@ -212,7 +217,7 @@
 
           <!-- Checkbox inputs for favorite features -->
           <div class="form-group">
-            <p>Your luggage gets lost. You:</p>
+            <p><strong>Your luggage gets lost. You:</strong></p>
             <ul>
               <li>
                 <label>
@@ -301,8 +306,11 @@
           <!-- A text area for additional comments -->
           <div class="form-group">
             <p>
-              Ever wondered if your vacation style screams planner, creative
-              explorer, snack hoarder, or mechanical genius? Write some comment:
+              <strong>
+                Ever wondered if your vacation style screams planner, creative
+                explorer, snack hoarder, or mechanical genius?</strong
+              ><br />
+              Write some comment:
             </p>
             <textarea
               id="comments"
