@@ -46,8 +46,6 @@ p {
 /* Styles for the image section */
 #img-traveler {
   width: 100%;
-  margin-block-start: 0.5em;
-  margin-block-end: 0.5em;
   border-radius: 3px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -70,7 +68,7 @@ img {
 
 
 h3 {
-  margin: 50px 0;
+  margin: 40px 0;
   text-align: center;
 }
 
@@ -86,10 +84,9 @@ a:visited {
 
 /* Styles for the form section */
 form {
-  padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
   max-width: 600px;
-  margin: 10px auto;
+  margin: 0 auto;
   text-align: left;
 }
 
