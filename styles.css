@@ -106,13 +106,13 @@ form {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #c0c0c0;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .form-control:focus {
-  border-color: #80bdff;
+  border-color: #c0c0c0;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
@@ -136,9 +136,9 @@ form {
   display: block;
   width: 100%;
   padding: 0.75rem;
-  background: var(--color-green);
-  color: inherit;
+  background: rgb(255, 255, 255);
   border-radius: 2px;
+  border-color: #c0c0c0;
   cursor: pointer;
 }
 
