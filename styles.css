@@ -74,16 +74,26 @@ img {
   display: block;
   height: auto;
   margin: 0 auto;
+  overflow-clip-margin: content-box;
  
 }
 
+figure {
+    display: block;
+    width: 100%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline: auto;
 
+   
+
+}
 
 #img-traveler {
+  max-width: 100%;
   background: white;
-  padding: 10px;
-  margin: 0;
-  align-items: center;
+  padding: 80px 200px;
+  border-radius: 6px;;
 }
 
 #img-caption {
