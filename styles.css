@@ -37,6 +37,7 @@ h1 {
   letter-spacing: -0.03em;
 }
 
+/* Styles for the image section */
 #img-traveler {
   width: 100%;
   margin-block-start: 0.5em;
@@ -46,7 +47,6 @@ h1 {
   padding-bottom: 20px;
   background: white;
 }
-
 
 img {
   max-width: 84%;
