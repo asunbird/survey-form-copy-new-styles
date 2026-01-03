@@ -144,4 +144,5 @@ ul {
 
 #name {
     max-width: 280px;
+    display: inline-block;
 }
